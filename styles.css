@@ -1,0 +1,48 @@
+body {
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+}
+
+h1 {
+    font-size: 42px;
+}
+
+#buttons-container button {
+    border: none;
+    padding: 10px 15px;
+    margin: 0 10px;
+}
+
+#container {
+    display: flex;
+    width: 300px;
+    margin: 0;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.box {
+    height: 100px;
+    border: 5px solid black;
+    box-sizing: border-box;
+    flex: 1 1 33%;
+}
+
+#block-1, #block-2, #block-3 {
+    border-top: nome;
+}
+
+#block-4, #block-5, #block-6 {
+    border-left: nome;
+}
+
+#block-7, #block-8, #block-9 {
+    border-bottom: nome;
+}
+
+#block-3, #block-6, #block-9 {
+    border-right: nome;
+}
